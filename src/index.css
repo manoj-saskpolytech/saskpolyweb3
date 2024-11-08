@@ -1,0 +1,249 @@
+
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: bold; /* Bold */
+  src: url("https://proxiklestatic.com/font/metropolis_bold.otf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("https://proxiklestatic.com/font/metropolis_medium.otf") format("truetype");
+  font-weight: 500; /* Extra Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("https://proxiklestatic.com/font/metropolis_regular.otf") format("truetype");
+  font-weight: normal; /* Light */
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("https://proxiklestatic.com/font/metropolis_semibold.otf") format("truetype");
+  font-weight:600; /* Thin */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("https://proxiklestatic.com/font/metropolis_black.otf") format("truetype");
+  font-weight:normal; /* Thin */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("https://proxiklestatic.com/font/metropolis_light.otf") format("truetype");
+  font-weight:normal; /* Thin */
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Metropolis", sans-serif;
+  background: linear-gradient(118deg, #fff4ed 0%, #ffecc4 35%,#dbfff9 73%,#ffe7e7 100%);
+}
+
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Metropolis", sans-serif;
+  background: linear-gradient(118deg, #fff4ed 0%, #ffecc4 35%,#dbfff9 73%,#ffe7e7 100%);
+  
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* /Track/ */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* /Handle/ */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* /Handle on Hover/ */
+::-webkit-scrollbar-track:hover {
+  background: #555;
+}
+
+.MenuIcons{
+  min-width: 30px !important;
+}
+
+.globalTextField{
+  width: 100%;
+  min-width: 200px;
+  border: 1px solid #536583 !important;
+  border-radius: 5px ;
+}
+
+.globalTextField::after{
+  border-radius: 5px !important;
+}
+
+.globalTextField::before{
+  border-radius: 5px !important;
+}
+
+.globalLabelName{
+  font-size: 16px !important;
+color: #253858 !important;
+margin-bottom: 5px;
+font-weight: 600 !important;
+}
+
+.requiredLabel {
+  color: red;
+  font-size: 22px;
+  padding-left: 5px;
+}
+
+
+.globalGridAlign{
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.SignInButtonStyle{
+  text-transform: none !important;
+  margin-left: 15px !important;
+  font-size: 20px !important;
+}
+
+.SignInButtonStyle:hover{
+  background-color: transparent !important;
+  text-decoration: underline !important;
+  
+}
+
+
+
+.SignInHeaderRightStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin-right:3% !important;
+  margin-left: 0px !important;
+  text-transform: none !important;
+  color: #253858;
+}
+
+/* .customicon-LocLanguage{
+  background-image: url('./assets/Language.png');
+  background-size: cover;
+	width: 26px;
+	height: 21px;
+} */
+
+.InitialSignInButtonStyle{
+font-size: 16px !important;
+font-weight: 700 !important;
+text-transform: none !important;
+margin-top: 15px !important;
+}
+
+.ChangePasswordButtonStyle{
+  font-size: 16px !important;
+font-weight: 700 !important;
+text-transform: none !important;
+}
+
+.customSignInIcon{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(118deg, #fff4ed 0%, #ffecc4 35%,#dbfff9 73%,#ffe7e7 100%);
+  color: #ffffff;
+}
+
+
+.ErrorMessage {
+  animation-name: css-186, css-199;
+  animation-duration: 0.367s;
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-fill-mode: both;
+  /* font-family: Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  font-weight: 400;
+  height: 30px;
+  color: #f44336;
+  margin: 0px 0px 0px 10px !important;
+  padding-top: 0px;
+  padding-left: 40px;
+
+}
+
+.IconCrown{
+  margin-left: 5px !important;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.mainForm{
+background: linear-gradient(118deg, #fff4ed 0%, #ffecc4 35%,#dbfff9 73%,#ffe7e7 100%) !important;
+background-image: url("https://proxiklestatic.com/products/accounts/background_doodle.svg") !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+
+
+.bannerstyle{
+  color: #253858;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(118deg, #ffd2b2 0%, #f5d58f 35%,#7bf3dd 73%,#64ccf1 100%);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* For the content on the right side */
+.content-container {
+  padding: 10px;
+  width: "100%";
+  /* height: calc(100vh - 113px) !important; */
+  overflow-y: auto;
+}
+
+.warningicon
+{
+  color: #FD7B1D; 
+}
